@@ -1,2 +1,2 @@
 # cardcollection
-Card collection tracker from Hearthstone
+Card collection tracker from World of WarCraft
