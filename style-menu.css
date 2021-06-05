@@ -1,7 +1,16 @@
+.header {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	left: 0;
+	top: 0;
+	border: none;
+}
+
 .main {
 	position: absolute;
-	height: calc(100% - 50px);
-	top: calc(50px - 50px);
+	height: calc(100% - 100px);
+	top: calc(50px - 0px);
 	width: 100%;
 	left: 0;
 	border: none;
@@ -12,8 +21,8 @@
 	background-color: black;
 	width: 100%;
 	height: 50px;
+	top: calc(100% - 50px);
 	left: 0;
-	margin-top: 53.3%;
 	border: none;
 }
 
@@ -23,11 +32,13 @@
 }
 
 #login {
+	font-family: DejaVu Sans Mono, monospace;
 	font-size: 30px;
 	text-align: center;
 }
 
 #passwd {
+	font-family: DejaVu Sans Mono, monospace;
 	font-size: 30px;
 	text-align: center;
 	margin-top: 1%; 
@@ -41,19 +52,73 @@
 	height: 20px;
 	resize: none;
 	white-space: nowrap;
+	border-radius: 5px;
 	overflow: hidden;
 }
 
 .passwd {
+	position: absolute;
 	background-color: black;
 	color: white;
 	margin-left: 43.8%;
 	width: 200px;
 	height: 20px;
 	resize: none;
+	border-radius: 5px;
 	white-space: nowrap;
 }
 
+.register {
+	position: absolute;
+	font-family: DejaVu Sans Mono, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 43%;
+	width: 85px;
+	margin-top: 4%;
+}
+
+.submit {
+	position: absolute;
+	background-color: black;
+  	border-radius: 5px;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 12px;
+  	margin-left: 52%;
+  	margin-top: 3.5%;
+}
+
+.container {
+	margin-top: 1%;
+	margin-left: 96%;
+  	display: inline-block;
+  	cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {	
+  	width: 35px;
+  	height: 5px;
+  	background-color: black;
+  	margin: 6px 0;
+  	transition: 0.4s;
+}
+
+.change .bar1 {
+  	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  	transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+	opacity: 0;
+}
+
+.change .bar3 {
+  	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+  	transform: rotate(45deg) translate(-8px, -8px);
+}
 
 body {
 	background-image: url(images/background-menu.jpg);
@@ -61,4 +126,5 @@ body {
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
+*/
 
