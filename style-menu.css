@@ -27,9 +27,14 @@
 }
 
 .logo {
+	position: absolute;
 	margin-left: 41%;
 	margin-top: 10%;
 }
+
+/* Pasek zadań */
+
+
 /*
 .container {
 	margin-top: 1%;
@@ -79,17 +84,20 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* Set a style for all buttons */
-button {
-  background-color: green;
+.signup-menu {
+  background-color: #000000;
   color: white;
   padding: 14px 20px;
-  border: none;
+  border-radius: 6px;
   cursor: pointer;
   width: 8%;
   opacity: 0.9;
+  margin-left: 38%;
+  margin-top: 21%;
 }
 
-button:hover {
+.signup-menu:hover {
+  background-color: #1a0000;
   opacity:1;
 }
 
@@ -168,10 +176,8 @@ hr {
 }
 
 body {
-	background-image: url(images/background-menu.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+  background-image: url(images/background-menu.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-
