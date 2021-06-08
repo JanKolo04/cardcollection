@@ -5,7 +5,7 @@
   width: 100%;
   left: 0;
   border: none;
-} 
+}
 
 .footer {
   position: absolute;
@@ -32,7 +32,7 @@
   font-family: DejaVu Sans Mono, monospace;
   font-size: 30px;
   text-align: center;
-  margin-top: 1%; 
+  margin-top: 1%;
 }
 
 .login {
@@ -196,7 +196,7 @@ hr {
     cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 { 
+.bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
     background-color: black;
@@ -237,4 +237,3 @@ body {
   background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
