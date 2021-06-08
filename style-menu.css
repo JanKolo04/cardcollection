@@ -38,9 +38,11 @@
 .login {
   background-color: black;
   color: white;
-  margin-left: 45%;
   width: 200px;
   height: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   resize: none;
   white-space: nowrap;
   border-radius: 5px;
@@ -48,15 +50,17 @@
 }
 
 .passwd {
-  position: absolute;
   background-color: black;
   color: white;
-  margin-left: 45%;
   width: 200px;
   height: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   resize: none;
-  border-radius: 5px;
   white-space: nowrap;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .submit {
