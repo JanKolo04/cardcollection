@@ -7,6 +7,13 @@
   border: none;
 }
 
+.license {
+  font-size: 13px;
+  top: 0;
+  text-align: center;
+  color: white;
+}
+
 .footer {
   position: absolute;
   background-color: black;
