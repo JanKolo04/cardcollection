@@ -7,13 +7,6 @@
   border: none;
 }
 
-.license {
-  font-size: 13px;
-  top: 0;
-  text-align: center;
-  color: white;
-}
-
 .footer {
   position: absolute;
   background-color: black;
@@ -24,9 +17,22 @@
   border: none;
 }
 
+.license {
+  font-size: 13px;
+  top: 0;
+  text-align: center;
+  color: white;
+}
+
+.all {
+  margin-top: 5%;
+}
+
 .logo {
-  margin-left: 42%;
-  margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    
 }
 
 #login {
@@ -46,12 +52,13 @@
   background-color: black;
   color: white;
   width: 200px;
-  height: 20px;
+  height: 30px;
   display: block;
   margin-right: auto;
   margin-left: auto;
   resize: none;
   white-space: nowrap;
+  margin-top: 20px;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -60,27 +67,28 @@
   background-color: black;
   color: white;
   width: 200px;
-  height: 20px;
+  height: 30px;
   display: block;
   margin-right: auto;
   margin-left: auto;
   resize: none;
   white-space: nowrap;
+  margin-top: 10px;
   border-radius: 5px;
   overflow: hidden;
 }
 
 .submit {
-    position: absolute;
-    background-color: black;
+    display: block;
+    background-color: #3366cc;
     border-radius: 5px;
     color: white;
-    padding: 15px 32px;
+    padding: 8px 77px;
     text-align: center;
     text-decoration: none;
-    font-size: 12px;
-    margin-left: 53%;
-    margin-top: 3.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
 }
 
 /*-----register and login------*/
@@ -104,16 +112,17 @@
 
 /* Set a style for all buttons */
 .register {
-    position: absolute;
-    background-color: black;
+    display: block;
+    background-color: #006600;
     border-radius: 5px;
     color: white;
-    padding: 15px 32px;
+    padding: 8px 50px;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
-    margin-left: 42%;
-    margin-top: 3.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
 }
 
 .register:hover {
