@@ -7,9 +7,7 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+// Mneu bar
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
