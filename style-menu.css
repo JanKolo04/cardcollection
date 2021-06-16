@@ -80,6 +80,11 @@
   overflow: hidden;
 }
 
+.remember {
+  margin-top: 10px;
+  margin-left: 44.8%;
+}
+
 .submit {
   border: 0; 
     display: block;
@@ -91,7 +96,7 @@
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: 10px;
 }
 
 /*-----register and login------*/
@@ -126,7 +131,7 @@
     font-size: 12px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
+    margin-top: 20px;
 }
 
 .register:hover {
