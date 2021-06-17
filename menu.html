@@ -47,13 +47,35 @@
 				<input type="Password" class="passwd" required placeholder="Password">
 
 				<label>
-					<input class="remember" type="checkbox" checked="checked" name="remember">Remember me
+					<input class="remember" type="checkbox" name="remember">Remember me
 				</label>
 
 				<input type="submit" class="submit" value="Submit">
-
-				<!-- Button to open the modal -->
 			</form>
+
+			<!-------forgot password----->
+		    <a onclick="document.getElementById('id02').style.display='block'" class="fpasswd">Forgot password ?</a>
+
+		    <div id="id02" class="modal2">
+		      <span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">back</span>
+		      <form class="modal-content2" action="/action_page.php">
+		        <div class="container3">
+		          <h1 class="napis">Find self account</h1>
+
+		          <label for="email2"><b>Enter your email address to search for your account.</b></label>
+		          <input type="text" placeholder="Enter Email" name="email" class="email2" required>
+
+		          <div class="clearfix2">
+		            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2">Cancel</button>
+		            <button type="submit" class="send">Send</button>
+		          </div>
+		        </div>
+		      </form>
+		    </div>
+
+			</div>
+
+			<!-- Button to open the modal -->
 			<button onclick="document.getElementById('id01').style.display='block'" class="register">Register</button>
 		</div>
 
@@ -84,10 +106,9 @@
 		  </form>
 		</div>
 
-	</div>
-
 	<div class="footer">
-		<p class="license">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex urna, vehicula suscipit ex sit amet, pulvinar ultrices est. Aliquam dictum sagittis orci sit amet consequat. Donec sit amet ex ante. Sed rutrum molestie ligula sed rhoncus.</p>
+		<p class="license">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex urna, vehicula suscipit ex sit amet, pulvinar ultrices est. Aliquam dictum sagittis orci sit amet consequat. Donec sit amet ex ante. Sed rutrum molestie ligula sed rhoncus.
+		</p>
 	</div>
 
 </body>
