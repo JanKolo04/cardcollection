@@ -40,17 +40,23 @@
 	margin-top: 10px;
 }
 
+.inscriptions {
+	right: 0;
+}
+
 .management {
 	position: absolute;
+	display: block;
 	color: white;
-	margin-left: 85%;
+	right: 6%;
 	margin-top: 27px;
 }
 
 .logout {
 	position: absolute;
+	display: block;
 	color: white;
-	margin-left: 95%;
+	right: 2%;
 	margin-top: 27px;
 }
 
@@ -59,3 +65,4 @@
 	border-radius: 5px;
 	margin-top: 20px;
 }
+
