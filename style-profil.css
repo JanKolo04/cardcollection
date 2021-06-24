@@ -34,29 +34,25 @@
 }
 
 .avatar {
-	position: absolute;
+	position: fixed;
 	height: 50px;
-	margin-left: 81%;
+	right: 20%;
 	margin-top: 10px;
 }
 
-.inscriptions {
-	right: 0;
-}
-
 .management {
-	position: absolute;
+	position: fixed;
 	display: block;
 	color: white;
-	right: 6%;
+	left: 86%;
 	margin-top: 27px;
 }
 
 .logout {
-	position: absolute;
+	position: fixed;
 	display: block;
 	color: white;
-	right: 2%;
+	left: 95%;
 	margin-top: 27px;
 }
 
