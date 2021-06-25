@@ -29,22 +29,30 @@
 }
 
 .logo {
-	position: absolute;
+	position: fixed;
 	height: 70px;
+	left: 0;
 }
 
 .avatar {
 	position: fixed;
 	height: 50px;
 	right: 20%;
-	margin-top: 10px;
+	top: 10px;
+}
+
+.inscriptions {
+	position: absolute;
+	right: 0;
+	height: 70px;
+	width: 20%;
 }
 
 .management {
 	position: fixed;
 	display: block;
+	left: 85%;
 	color: white;
-	left: 86%;
 	margin-top: 27px;
 }
 
