@@ -38,7 +38,6 @@
 	position: fixed;
 	height: 50px;
 	right: 18%;
-	margin-top: 10px;
 }
 
 .management {
@@ -87,6 +86,7 @@
 .ability {
   position: absolute;
   margin-left: 12px;
+  margin-top: 15px;
   color: white;
 }
 
@@ -95,6 +95,9 @@
   margin-left: 20px;
 } 
 
+#btnability:hover, .ability:hover {
+	color: grey;
+}
 
 /*--------ALLY---------*/
 #moreally {
@@ -119,6 +122,10 @@
   position: absolute;
   margin-top: 10px;
   margin-left: 20px;
+}
+
+#btnally:hover, .ally:hover {
+	color: grey;
 }
 
 /*-------EQUIPMENT---------*/
@@ -146,6 +153,10 @@
   margin-left: 20px;
 }
 
+#btnequipment:hover, .equipment:hover {
+	color: grey;
+}
+
 /*-------HERO---------*/
 #morehero {
   display: none;
@@ -169,6 +180,10 @@
   position: absolute;
   margin-top: 10px;
   margin-left: 20px;
+}
+
+#btnhero:hover, .hero:hover {
+	color: grey;
 }
 
 /*-------LOCATION---------*/
@@ -196,6 +211,10 @@
   margin-left: 20px;
 }
 
+#btnlocation:hover, .location:hover {
+	color: grey;
+}
+
 /*-------MASTER---------*/
 #moremaster {
   display: none;
@@ -221,6 +240,10 @@
   margin-left: 20px;
 }
 
+#btnmaster:hover, .master:hover {
+	color: grey;
+}
+
 /*-------QUEST---------*/
 #morequest {
   display: none;
@@ -244,6 +267,10 @@
   position: absolute;
   margin-top: 10px;
   margin-left: 20px;
+}
+
+#btnquest:hover, .quest:hover {
+	color: grey;
 }
 
 /*---------media----------*/
