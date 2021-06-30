@@ -31,7 +31,7 @@
 .logo {
 	position: absolute;
 	height: 70px;
-	z-index: 1;
+	top: 0;
 }
 
 .avatar {
@@ -68,6 +68,8 @@
 
 .categories {
 	margin-top: 20px;
+	height: 420px;
+	width: 180px;
 }
 
 
