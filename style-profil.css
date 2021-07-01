@@ -74,6 +74,12 @@
 
 
 /*-------ABILITY-------*/
+.okej {
+  position: absolute;
+  top: 0;
+  margin-top: 40px;
+}
+
 #moreability {
   display: none;
   color: white;
@@ -97,8 +103,12 @@
   margin-left: 20px;
 } 
 
-#btnability:hover, .ability:hover {
-	color: grey;
+#btnability:hover, .ability:hover{
+	color: white;
+}
+
+#moreability:hover {
+  color: #A0A0A0;
 }
 
 /*--------ALLY---------*/
@@ -127,7 +137,7 @@
 }
 
 #btnally:hover, .ally:hover {
-	color: grey;
+	color: white;
 }
 
 /*-------EQUIPMENT---------*/
@@ -156,7 +166,7 @@
 }
 
 #btnequipment:hover, .equipment:hover {
-	color: grey;
+	color: white;
 }
 
 /*-------HERO---------*/
@@ -185,7 +195,7 @@
 }
 
 #btnhero:hover, .hero:hover {
-	color: grey;
+	color: white;
 }
 
 /*-------LOCATION---------*/
@@ -214,7 +224,7 @@
 }
 
 #btnlocation:hover, .location:hover {
-	color: grey;
+	color: white;
 }
 
 /*-------MASTER---------*/
@@ -243,7 +253,7 @@
 }
 
 #btnmaster:hover, .master:hover {
-	color: grey;
+	color: white;
 }
 
 /*-------QUEST---------*/
@@ -272,7 +282,7 @@
 }
 
 #btnquest:hover, .quest:hover {
-	color: grey;
+	color: white;
 }
 
 /*---------media----------*/
