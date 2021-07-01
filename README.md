@@ -7,3 +7,4 @@ TO DO
 - [x] remebr me
 - [ ] categories card
 - [ ] place for card
+- [ ] wallappers
