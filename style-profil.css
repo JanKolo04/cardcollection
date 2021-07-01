@@ -82,12 +82,6 @@
 
 
 /*-------ABILITY-------*/
-.okej {
-  position: absolute;
-  top: 0;
-  margin-top: 40px;
-}
-
 #moreability {
   display: none;
   color: white;
@@ -110,14 +104,6 @@
   position: absolute;
   margin-left: 20px;
 } 
-
-#btnability:hover, .ability:hover{
-	color: white;
-}
-
-#moreability:hover {
-  color: #A0A0A0;
-}
 
 /*--------ALLY---------*/
 #moreally {
@@ -149,6 +135,7 @@
 }
 
 /*-------EQUIPMENT---------*/
+
 #moreequipment {
   display: none;
   color: white;
@@ -171,6 +158,8 @@
   position: absolute;
   margin-top: 10px;
   margin-left: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 #btnequipment:hover, .equipment:hover {
@@ -178,6 +167,7 @@
 }
 
 /*-------HERO---------*/
+
 #morehero {
   display: none;
   color: white;
@@ -207,6 +197,7 @@
 }
 
 /*-------LOCATION---------*/
+
 #morelocation {
   display: none;
   color: white;
@@ -236,6 +227,7 @@
 }
 
 /*-------MASTER---------*/
+
 #moremaster {
   display: none;
   color: white;
@@ -265,6 +257,7 @@
 }
 
 /*-------QUEST---------*/
+
 #morequest {
   display: none;
   color: white;
@@ -292,50 +285,3 @@
 #btnquest:hover, .quest:hover {
 	color: white;
 }
-
-/*---------media----------*/
-/*---
-
-@media screen and (max-width:  1100px) {
-	.avatar {
-		margin-right: 4%;
-	}
-
-	.management {
-		margin-right: 5%;
-	}
-
-	.logout {
-		margin-top: 30px;
-	}
-}
-
-
-@media screen and (max-width:  760px) {
-	.avatar {
-		margin-right: 10%;
-	}
-
-	.management {
-		margin-right: 9%;
-	}
-
-	.logout {
-		margin-top: 30px;
-	}
-}
-
-@media screen and (max-width:  640px) {
-	.avatar {
-		margin-right: 17%;
-	}
-
-	.management {
-		margin-right: 16%;
-	}
-
-	.logout {
-		margin-top: 30px;
-	}
-}
---*/
