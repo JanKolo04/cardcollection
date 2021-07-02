@@ -5,7 +5,7 @@ TO DO
 -------------
 - [x] graphic sketch prof
 - [x] remebr me
-- [ ] categories card
+- [x] categories card
 - [ ] place for card
 - [ ] wallappers
 - [ ] categories
