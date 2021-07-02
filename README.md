@@ -8,3 +8,4 @@ TO DO
 - [ ] categories card
 - [ ] place for card
 - [ ] wallappers
+- [ ] categories
