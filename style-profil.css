@@ -18,6 +18,7 @@
   width: 100%;
   left: 0;
   border: none;
+  overflow: auto;
 }
 
 .footer {
@@ -70,218 +71,42 @@
 .search {
 	border-radius: 5px;
 	margin-top: 20px;
+  margin-left: 5px;
 }
 
 /*----------categories--------*/
 
-.categories {
-	margin-top: 20px;
-	height: 420px;
-	width: 180px;
-}
-
-
-/*-------ABILITY-------*/
-#moreability {
-  display: none;
-  color: white;
-}
-
-#btnability {
+#leftMenu {
   position: absolute;
-  margin-top: 15px;
+  width: 9%;
+  top: 9%;
+}
+
+#leftMenu > details > summary{
   color: white;
+  cursor:pointer;
+  margin:6px;
+  padding: 8px;
 }
 
-.ability {
-  position: absolute;
-  margin-left: 12px;
-  margin-top: 15px;
+#leftMenu > details > summary:hover{
+  background: grey;
+}
+
+#leftMenu > details > a{
   color: white;
+  display:block;
+  text-decoration: none;
+  font-size:13px;
+  margin:3px 6px 3px 18px;
+  padding: 4px;
 }
 
-.abilitydiv {
-  position: absolute;
-  margin-left: 20px;
-} 
-
-/*--------ALLY---------*/
-#moreally {
-  display: none;
-  color: white;
+#leftMenu > details > a:hover{
+  background: grey;
+  font-weight: bold;
 }
 
-#btnally {
-  position: absolute;
-  margin-top: 60px;
-  color: white;
-}
-
-.ally {
-  position: absolute;
-  margin-top: 60px;
-  margin-left: 12px;
-  color: white;
-}
-
-.allydiv {
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-#btnally:hover, .ally:hover {
-	color: white;
-}
-
-/*-------EQUIPMENT---------*/
-
-#moreequipment {
-  display: none;
-  color: white;
-}
-
-#btnequipment {
-  position: absolute;
-  margin-top: 120px;
-  color: white;
-}
-
-.equipment {
-  position: absolute;
-  margin-top: 120px;
-  margin-left: 12px;
-  color: white;
-}
-
-.equipmentdiv {
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 20px;
-  display: flex;
-  flex-direction: row;
-}
-
-#btnequipment:hover, .equipment:hover {
-	color: white;
-}
-
-/*-------HERO---------*/
-
-#morehero {
-  display: none;
-  color: white;
-}
-
-#btnhero {
-  position: absolute;
-  margin-top: 180px;
-  color: white;
-}
-
-.hero {
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 12px;
-  color: white;
-}
-
-.herodiv {
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-#btnhero:hover, .hero:hover {
-	color: white;
-}
-
-/*-------LOCATION---------*/
-
-#morelocation {
-  display: none;
-  color: white;
-}
-
-#btnlocation {
-  position: absolute;
-  margin-top: 240px;
-  color: white;
-}
-
-.location {
-  position: absolute;
-  margin-top: 240px;
-  margin-left: 12px;
-  color: white;
-}
-
-.locationdiv {
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-#btnlocation:hover, .location:hover {
-	color: white;
-}
-
-/*-------MASTER---------*/
-
-#moremaster {
-  display: none;
-  color: white;
-}
-
-#btnmaster {
-  position: absolute;
-  margin-top: 300px;
-  color: white;
-}
-
-.master {
-  position: absolute;
-  margin-top: 300px;
-  margin-left: 12px;
-  color: white;
-}
-
-.masterdiv {
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-#btnmaster:hover, .master:hover {
-	color: white;
-}
-
-/*-------QUEST---------*/
-
-#morequest {
-  display: none;
-  color: white;
-}
-
-#btnquest {
-  position: absolute;
-  color: white;
-  margin-top: 360px;
-}
-
-.quest {
-  position: absolute;
-  margin-top: 360px;
-  margin-left: 12px;
-  color: white;
-}
-
-.questdiv {
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-#btnquest:hover, .quest:hover {
-	color: white;
+#leftMenu > details > a:before{
+  content: "- ";
 }
