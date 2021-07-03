@@ -5,7 +5,7 @@ TO DO
 -------------
 - [x] remebr me
 - [x] categories card
-- [ ] place for card
+- [ ] place on card
 - [ ] wallappers
 - [ ] categories
 
