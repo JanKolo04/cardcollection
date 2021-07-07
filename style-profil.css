@@ -67,16 +67,26 @@
   margin-left: 20px;
 }
 
+/*------cateogires&search------*/
+
+.cateogiressearch {
+  position: fixed;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+}
+
 /*---------search bar-----------*/
 .search {
 	border-radius: 5px;
 	margin-top: 20px;
   margin-left: 5px;
+  width: 170px;
 }
 
 /*----------categories--------*/
 #leftMenu {
-  position: absolute;
   width: 8%;
   min-width: 150px;
   top: 7%;
@@ -111,4 +121,16 @@
 
 #leftMenu > details > a:before{
   content: "- ";
+}
+
+/*---------card place----------*/
+
+.cards {
+  position: absolute;
+  top: 20px;
+  height: max;
+  bottom: 20px;
+  width: 80%;
+  right: 30px;
+  background-image: url("images/paper.jpeg");
 }
