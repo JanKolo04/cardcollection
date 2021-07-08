@@ -40,5 +40,6 @@ TO DO
 - [ ] place on card
 - [x] wallappers
 - [ ] categories
+- [ ] type
 
 
