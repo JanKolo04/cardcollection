@@ -18,7 +18,6 @@
   width: 100%;
   left: 0;
   border: none;
-  overflow: auto;
   display: flex;
 }
 
@@ -68,15 +67,14 @@
   margin-left: 20px;
 }
 
+/*--------cateogries and search-----------*/
+
 .container {
   width: 200px;
   display: flex;
   flex-direction: column;
   margin: 10px;
-}
-
-.container div {
-  margin: 10px;
+  overflow: auto;
 }
 
 /*---------search bar-----------*/
