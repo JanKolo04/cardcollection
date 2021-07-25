@@ -37,7 +37,7 @@ window.onclick = function(event) {
 
 TO DO
 -------------
-- [ ] place on card
+- [x] place on card
 - [x] wallappers
 - [ ] categories
 - [ ] type
