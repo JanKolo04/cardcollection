@@ -128,8 +128,19 @@
   background-image: url("images/paper.jpeg");
   margin: 10px;
   flex-grow: 1;
+  display: flex;
+  overflow: auto;
 }
 
+.allcards {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-
+.allcards div {
+  background-color: green;
+  margin: 10px;
+  width: 220px;
+  height: 324px;
+}
 
