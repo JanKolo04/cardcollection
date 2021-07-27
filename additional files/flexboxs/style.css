@@ -1,0 +1,41 @@
+.main {
+  position: absolute;
+  background-color: blue;
+  bottom: 50px;
+  top: 70px;
+  width: 100%;
+  left: 0;
+  border: none;
+  overflow: hidden;
+  display: flex;
+}
+
+.container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container div {
+  margin: 10px;
+}
+
+.search {
+  background-color: green;
+  height: 50px;
+}
+
+.categories {
+  background-color: yellow;
+  height: 100%; 
+}
+
+.cards {
+  background-color: hotpink;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+body {
+  background: black;
+}
