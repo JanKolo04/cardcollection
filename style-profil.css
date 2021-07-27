@@ -128,7 +128,6 @@
   background-image: url("images/paper.jpeg");
   margin: 10px;
   flex-grow: 1;
-  display: flex;
   overflow: auto;
 }
 
@@ -139,7 +138,7 @@
 
 .allcards div {
   margin: 10px;
-  width: 220px;
+  width: 219px;
   height: 324px;
 }
 
