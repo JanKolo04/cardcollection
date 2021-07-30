@@ -20,6 +20,10 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+<img width="1440" alt="Zrzut ekranu 2021-07-30 o 18 14 32" src="https://user-images.githubusercontent.com/76879087/127681760-8e49ebcc-6810-43dc-a3b0-a87712647bce.png">
+
+
 ```
 
 JS forgot password
