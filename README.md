@@ -45,6 +45,3 @@ TO DO
 - [ ] categories
 - [ ] type
 
-
-
-
