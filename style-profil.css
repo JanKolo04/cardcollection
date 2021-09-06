@@ -19,6 +19,7 @@
   left: 0;
   border: none;
   display: flex;
+  overflow: hidden;
 }
 
 .footer {
@@ -71,6 +72,7 @@
 
 .container {
   width: 200px;
+  min-width: 200px;
   display: flex;
   flex-direction: column;
   margin: 10px;
@@ -127,8 +129,10 @@
 .cards {
   background-image: url("images/paper.jpeg");
   margin: 10px;
-  flex-grow: 1;
+  width: calc(100% - 20px - 200px);
+  height: calc(100% - 20px);
   overflow: auto;
+
 }
 
 .allcards {
@@ -137,8 +141,9 @@
 }
 
 .allcards div {
-  margin: 10px;
-  width: 219px;
-  height: 324px;
+  margin: auto;
+  margin-top: 10px;
+  width: calc(16%*0.73828125);
+  height: calc(16%*1.35449735);
 }
 
